@@ -9,10 +9,10 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 ├── requirements.txt　　　　　　　　　　　　　　　　　　　# Experimental requirements file  
 ├── result　　　　　　　　　　　　　　　　　　　　　　　　# Experimental result directory  
 ├── victim_models　　　　　　　　　　　　　　　　　　　　# Victim learning-based index recommendation systems  
-│　　　　├── CIKM_2020  
-│　　　　├── ICDE_2020  
+│　　　　├── CIKM_2020　　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
+│　　　　├── ICDE_2020　　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 │　　　　├── ICDE_2021  
-│　　　　└── SWIRL_2022  
+│　　　　└── SWIRL_2022　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 └── workload_generation　　　　　　　　　　　　　　　　　# Workload generation module  
 　　　　└── BartSqlGen　　　　　　　　　　　　　　　　　# IABART  
 　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# Automatic state machine for SQL generation  
