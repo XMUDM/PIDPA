@@ -9,7 +9,7 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 ├── requirements.txt　　　　　　　　　　　　　　　　　　　# Experimental requirements file  
 ├── result　　　　　　　　　　　　　　　　　　　　　　　　# Experimental result directory  
 ├── victim_models　　　　　　　　　　　　　　　　　　　　# Victim index recommendation systems  
-│　　　　├── CIKM_2020　　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
+│　　　　├── CIKM_2020　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 │　　　　├── ICDE_2020　　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 │　　　　├── ICDE_2021  
 │　　　　└── SWIRL_2022　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
