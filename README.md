@@ -21,7 +21,7 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 　　　　　　　　├── net_full_TPCH.pth　　　　　　　　　　　　　　# Training result files on TPCH dataset  
 　　　　　　　　├── net_full_TPCDS.pth　　　　　　　　　　　　　# Training result files on TPCDS dataset  
 　　　　　　　　├── processing.py　　　　　　　　　　　　　　　　# Processing of original training data  
-　　　　　　　　├── resource　　　　　　　　　　　　　　　　　　# The resource files required for IABART training  
+　　　　　　　　├── resource　　　　　　　　　　　　　　　　　　# The resource files required for training  
 　　　　　　　　│　　　├── autocode.json  
 　　　　　　　　│　　　├── config.json  
 　　　　　　　　│　　　├── merges.txt  
