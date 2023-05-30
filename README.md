@@ -15,7 +15,7 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 │　　　　└── SWIRL_2022　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 └── workload_generation　　　　　　　　　　　　　　　　　# Workload generation module  
 　　　　└── BartSqlGen　　　　　　　　　　　　　　　　　# IABART  
-　　　　　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# Automatic state machine for SQL generation  
+　　　　　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# SQL automatic state machine 
 　　　　　　　　├── local_transformers		   
 　　　　　　　　├── model.py　　　　　　　　　　　　　　　　　# The main file of IABART  
 　　　　　　　　├── net_full_TPCH.pth　　　　　　　　　　　　　　# Training result files on TPCH dataset  
