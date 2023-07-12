@@ -16,7 +16,7 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 └── workload_generation　　　　　　　　　　　　　　　　　# Workload generation module  
 　　　　└── BartSqlGen　　　　　　　　　　　　　　　　　# IABART  
 　　　　　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# SQL automatic state machine  
-　　　　　　　　├── local_transformers		   
+　　　　　　　　├── local_transformers		                  # file about transformer
 　　　　　　　　├── model.py　　　　　　　　　　　　　　　　　# The main file of IABART  
 　　　　　　　　├── net_full_TPCH.pth　　　　　　　　　　　　　　# Training result files on TPCH dataset  
 　　　　　　　　├── net_full_TPCDS.pth　　　　　　　　　　　　　# Training result files on TPCDS dataset  
