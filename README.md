@@ -60,4 +60,3 @@ All experimental hyperparameter configurations are stored in the **base_config.j
   * **pg_port ( str )** : The port number of the psql database to be connected.
   * **pg_user ( str )** : The username of the psql database to be connected.
   * **pg_password ( str )** : The password for the username of the psql database to be connected.
-

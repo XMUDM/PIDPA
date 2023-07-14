@@ -176,7 +176,7 @@ class ICDE_2020(object):
             attack_workload = gen_attack_bad_suboptimal(self.probility_of_column, genmodel)
         elif self.root_config["attack_method"] == "bad":
             attack_workload = gen_attack_bad(self.probility_of_column, genmodel)
-        elif self.root_config["attack_method"] == "suboptimal":
+        elif self.root_config["attack_method"] == "PIPA":
             attack_workload = gen_attack_suboptimal(self.probility_of_column, genmodel)
         elif self.root_config["attack_method"] == "random":
             attack_workload = gen_attack_random_ood(self.probility_of_column, genmodel)
