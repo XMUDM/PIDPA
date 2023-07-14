@@ -1,5 +1,5 @@
 # PIPA
-Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
+Probing-Injecting Poisoning Attack Against Learning-based Index Advisors
 
 ### Code structure
 .  
