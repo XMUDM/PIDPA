@@ -30,7 +30,7 @@
     * **"epoches" : 200**
     * **"learning_start" : 100**
     * **"lr" : 0.02**
-    * **"probing_num" : 20** ()
+    * **"probing_num" : 20** (number of iterations of probing stage)
     * **"reward_lr" : 100**
   * **"generate_wl" :**
     * **"work_dir" :** the path of your 'tpch-kit/dbgen' file
