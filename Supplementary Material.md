@@ -34,4 +34,4 @@
     * **"reward_lr" : 100**
   * **"generate_wl" :**
     * **"work_dir" :** the path of your 'tpch-kit/dbgen' file
-    * **"w_size" :** **"18"**（the size of workload)
+    * **"w_size" :** "18"（the size of workload)
