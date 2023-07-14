@@ -1,4 +1,4 @@
-# PIDPA
+# PIPA
 Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 
 ### Code structure
@@ -15,21 +15,21 @@ Probing-Injecting Data Poisoning Attack Against Learning-based Index Advisors
 │　　　　└── SWIRL_2022　　　　　　　　　　　　　　　　# You should add tpch/tpcds-kit under this directory  
 └── workload_generation　　　　　　　　　　　　　　　　　# Workload generation module  
 　　　　└── BartSqlGen　　　　　　　　　　　　　　　　　# IABART  
-　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# Automatic state machine for SQL generation  
-　　　　├── local_transformers		   
-　　　　├── model.py　　　　　　　　　　　　　　　　　# The main file of IABART  
-　　　　├── net_full_TPCH.pth　　　　　　　　　　　　　　# Training result files on TPCH dataset  
-　　　　├── net_full_TPCDS.pth　　　　　　　　　　　　　# Training result files on TPCDS dataset  
-　　　　├── processing.py　　　　　　　　　　　　　　　　# Processing of original training data  
-　　　　├── resource　　　　　　　　　　　　　　　　　　# The resource files required for IABART training  
-　　　　│　　　├── autocode.json  
-　　　　│　　　├── config.json  
-　　　　│　　　├── merges.txt  
-　　　　│　　　├── pytorch_model.bin  
-　　　　│　　　├── sql.jso　　　　　　　　　　　　　　　　# Your training data  
-　　　　│　　　├── tokenizer.json  
-　　　　│　　　└── vocab.json  
-　　　　└── result　　　　　　　　　　　　　　　　　　　　# IABART training result files  
+　　　　　　　　├── FSM　　　　　　　　　　　　　　　　　　　　# SQL automatic state machine  
+　　　　　　　　├── local_transformers　　　　　　　　　　　　# Files about transformer  
+　　　　　　　　├── model.py　　　　　　　　　　　　　　　　　# The main file of IABART  
+　　　　　　　　├── net_full_TPCH.pth　　　　　　　　　　　　　　# Training result files on TPCH dataset  
+　　　　　　　　├── net_full_TPCDS.pth　　　　　　　　　　　　　# Training result files on TPCDS dataset  
+　　　　　　　　├── processing.py　　　　　　　　　　　　　　　　# Processing of original training data  
+　　　　　　　　├── resource　　　　　　　　　　　　　　　　　　# The resource files required for training  
+　　　　　　　　│　　　├── autocode.json  
+　　　　　　　　│　　　├── config.json  
+　　　　　　　　│　　　├── merges.txt  
+　　　　　　　　│　　　├── pytorch_model.bin  
+　　　　　　　　│　　　├── sql.jso　　　　　　　　　　　　　　　　# Your training data  
+　　　　　　　　│　　　├── tokenizer.json  
+　　　　　　　　│　　　└── vocab.json  
+　　　　　　　　└── result　　　　　　　　　　　　　　　　　　　　# IABART training result files  
 
 
 ### Example workflow
@@ -60,4 +60,3 @@ All experimental hyperparameter configurations are stored in the **base_config.j
   * **pg_port ( str )** : The port number of the psql database to be connected.
   * **pg_user ( str )** : The username of the psql database to be connected.
   * **pg_password ( str )** : The password for the username of the psql database to be connected.
-
